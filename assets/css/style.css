@@ -9454,7 +9454,7 @@ textarea.form-control {
     height: 35px;
   }
 }
-@media (max-width: 262px) {
+@media (max-width: 280px) {
   .only_name_img {
     display: none;
   }
