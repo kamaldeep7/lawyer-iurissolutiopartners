@@ -9228,6 +9228,12 @@ textarea.form-control {
     display: block;
     color: rgba(255, 255, 255, 0.7); }
 
+    .blog-entry:hover {
+      transition: 0.2s;
+      transform: scale(1.05);
+      box-shadow: 5px 16px 37px 9px rgba(184,147,73,0.39)
+    }
+
 .block-23 ul {
   padding: 0; }
   .block-23 ul li, .block-23 ul li > a {
@@ -9429,6 +9435,29 @@ textarea.form-control {
 
 .img-about {
 	background-size: contain;
+}
+.only_logo_img {
+  width: 65px;
+  height: 70px;
+  margin-right: 8px;
+}
+.only_name_img {
+  height: 45px;
+}
+@media (max-width: 400px) {
+  .only_logo_img {
+    width: 50px;
+    height: 55px;
+    margin-right: 4px;
+  }
+  .only_name_img {
+    height: 35px;
+  }
+}
+@media (max-width: 262px) {
+  .only_name_img {
+    display: none;
+  }
 }
 
 .sidebar-box {
